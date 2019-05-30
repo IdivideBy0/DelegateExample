@@ -38,7 +38,7 @@ namespace DelegateExample
         static void Main(string[] args)
         {
             //create delegate instances
-            NumberChanger nc1 = new NumberChanger(AddNum); // --> parameters are methods!
+            NumberChanger nc1 = new NumberChanger(AddNum); // <-- Notice parameters are methods.
             NumberChanger nc2 = new NumberChanger(MultNum);
             NumberChanger nc3 = new NumberChanger(SubtractNum);
 
